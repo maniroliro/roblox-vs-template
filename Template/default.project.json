@@ -1,0 +1,35 @@
+{
+  "name": "fds",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Modules": {
+        "$path": "src/ReplicatedStorage/Modules",
+        "Packages": {
+          "$path": "Packages"
+        }
+      }
+    },
+    "ServerScriptService": {
+      "Scripts": {
+        "$className": "Folder",
+        "Modules": {
+          "$path": "src/ServerScriptService/Scripts/Modules",
+          "Packages": {
+            "$path": "ServerPackages"
+          }
+        },
+        "Main": {
+          "$path": "src/ServerScriptService/Scripts/Main.server.luau"
+        }
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Scripts": {
+          "$path": "src/StarterPlayerScripts/Scripts"
+        }
+      }
+    }
+  }
+}
